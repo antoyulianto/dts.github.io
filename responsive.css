@@ -1,0 +1,54 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+.slider {
+  width: 50%;
+}
+
+.top-wrapper h1 {
+  font-size: 32px;
+}
+
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+  body {
+    font-size: 12px;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .slider {
+    width: 50%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .tombol1 {
+     width: 100%;
+   }
+
+  .tombol2 {
+    width: 100%;
+  }
+
+   /* Gantikan margin-bottom facebook ke 10px */
+   .tombol2 {
+     margin-bottom: 10px;
+   }
+
+   /* Tambahkan CSS untuk top-wrapper */
+   .top-wrapper {
+     text-align: center;
+     padding-top: 130px;
+   }
